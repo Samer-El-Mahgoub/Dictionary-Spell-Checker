@@ -10,9 +10,9 @@ A simple spell checker implemented in C using an AVL Tree for fast word lookup.
 - Suggests nearby words for misspellings
 
 ## Suggestions based on:
-A- The word in the last node you reached before declaring that the word does not exist.
-B- The word in the inorder predecessor of that node in Part A.
-C- The word in the inorder successor of that node in Part A.
+A- The word in the last node you reached before declaring that the word does not exist.\n
+B- The word in the inorder predecessor of that node in Part A.\n
+C- The word in the inorder successor of that node in Part A.\n
 
 ## Files
 - `main.c` - Source code
